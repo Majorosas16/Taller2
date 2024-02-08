@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller Formulario</title>
+</head>
+<body style="background-color:#e2f8fd;">
+    <center><img src="https://static.vecteezy.com/system/resources/previews/012/658/289/non_2x/3d-application-form-illustration-side-view-free-png.png" alt="Form" width="200" height"200"> </center>
+    <center><h1>Formulario:</h1></center>
+    <center><h4>Por favor diligencie todos los campos</h4></center>
+
+    <section>
+        <!--En clase se usó el método post-->
+        <form method="get" action="/RegistroExitoso.html">
+
+            <div> <!--Nombre-->
+            <center>
+                <label style="font-family: 'Times New Roman', Times, serif;" for="input-nom"> Nombre </label>
+                <br/>
+                <input name="input-nom" type="text" required autofocus/>
+            </center>
+            </div>
+
+            <br/>
+
+            <div> <!--Correo-->
+            <center>
+                <label style="font-family: 'Times New Roman', Times, serif;" for="input-correo"> Correo </label>
+                <br/>
+                <input name="input-correo" type="email" autofocus required placeholder="usuario@gmail.com"/>
+            </center>
+            </div>
+
+            <br/>
+
+            <div> <!--URL-->
+                <center>
+                    <label style="font-family: 'Times New Roman', Times, serif;" for="input-url"> URL</label>
+                    <br/>
+                    <input name="input-url" type="url" autofocus required placeholder="Escribe tu página web personal"/>
+                </center>
+                </div>
+
+             <br/>
+
+            <div> <!--Fecha-->
+                 <center>
+                    <label style="font-family: 'Times New Roman', Times, serif;" for="input-fecha">Fecha</label>
+                     <br/>
+                    <input name="input-fecha" type="date" required />
+                 </center>
+                 </div>
+
+             <br/>
+
+             <div> <!--Tiempo-->
+                  <center>
+                     <label style="font-family: 'Times New Roman', Times, serif;" for="input-time">Tiempo</label>
+                      <br/>
+                     <input name="input-time" type="time"/>
+                  </center>
+                  </div>
+
+             <br/>
+
+             <div> <!--Fecha y Hora-->
+                  <center>
+                     <label style="font-family: 'Times New Roman', Times, serif;" for="input-FH">Fecha y Hora</label>
+                      <br/>
+                     <input name="input-FH" type="datetime-local"/>
+                  </center>
+                  </div>
+
+             <br/>
+
+             <div> <!--Número-->
+                  <center>
+                     <label style="font-family: 'Times New Roman', Times, serif;" for="input-Num">Número</label>
+                      <br/>
+                     <input name="input-Num" type="number" min="-10" max="10" required placeholder="Solo usa las flechas" />
+                  </center>
+                  </div>
+
+             <br/>
+
+             <div> <!--Telefono-->
+                  <center>
+                     <label style="font-family: 'Times New Roman', Times, serif;" for="input-Tel">Teléfono</label>
+                      <br/>
+                     <input name="input-Tel" type="tel" min="-10" max="10" required/>
+                  </center>
+                  </div>
+
+            <br/>
+            <div> <!--Botones-->
+                <center>
+                    <input type="submit" value="Enviar"/> 
+                    <input type="reset" value="Borrar todo" />
+                </center>
+
+        </form>
+    </section>
+</body>
+</html>
